@@ -11,7 +11,7 @@ import WatchlistManagement from "pages/watchlist-management";
 
 const Routes = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="broadflix-react">
       <ErrorBoundary>
         <ScrollToTop />
         <RouterRoutes>

@@ -1,6 +1,7 @@
 {
   "name": "broadflix",
   "version": "0.1.0",
+  "homepage": "https://souravs72.github.io/broadflix-react",
   "private": true,
   "dependencies": {
     "@dhiwise/component-tagger": "^1.0.9",
@@ -30,6 +31,10 @@
   "scripts": {
     "start": "vite",
     "build": "vite build --sourcemap",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "serve": "vite preview"
   },
   "eslintConfig": {
@@ -57,6 +62,7 @@
     "@tailwindcss/typography": "^0.5.16",
     "@vitejs/plugin-react": "4.3.4",
     "autoprefixer": "10.4.2",
+    "gh-pages": "^6.3.0",
     "postcss": "8.4.8",
     "tailwindcss": "3.4.6",
     "vite": "5.0.0",
